@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "CodenameCoder";
+    src: url("/assets/bootstrap-icons/font/fonts/CodenameCoderFree4F-Bold.ttf");
+}
+
+body {
+    font-size: 15pt;
+    font-family: "CodenameCoder";
+}
+
+.item {
+    border: solid;
+    width: 200px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.item:hover {
+    width: 205px;
+}
